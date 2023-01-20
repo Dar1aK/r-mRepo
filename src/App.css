@@ -26,8 +26,8 @@
 
 .card {
   display: flex;
-  flex: 1 0 32%;
-  margin: 0 5px 20px;
+  flex: 1 0 30%;
+  margin: 0 10px 20px;
   background-color: rgb(163, 163, 163);
   border-radius: 10px;
   overflow: hidden;
@@ -35,7 +35,6 @@
 
 .card img {
   width: 200px;
-  height: 200px;
 }
 
 .card__text {
@@ -62,4 +61,28 @@
 
 .indicator.red {
   background-color: red;
+}
+
+.filters {
+  margin-bottom: 10px;
+}
+
+.search {
+  margin-bottom: 10px;
+}
+
+.buttons {
+  margin-bottom: 10px;
+}
+
+.select {
+  margin-right: 10px;
+}
+
+.selects {
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 0px rgb(0, 0, 0);
 }

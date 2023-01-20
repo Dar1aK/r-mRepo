@@ -1,0 +1,65 @@
+#root {
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex: 1 0 32%;
+  margin: 0 5px 20px;
+  background-color: rgb(163, 163, 163);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+}
+
+.card__text {
+  flex: 1 0 calc(100% - 200px);
+  padding: 10px;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.indicator {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  background-color: gray;
+  vertical-align: middle;
+}
+
+.indicator.green {
+  background-color: green;
+}
+
+.indicator.red {
+  background-color: red;
+}
